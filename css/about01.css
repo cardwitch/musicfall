@@ -1,0 +1,203 @@
+@media screen and (min-width:960px){
+
+section{ width:100%; min-width:1000px; height:1716px; box-sizing:border-box;  }
+.bgm{ width:100%; min-width:1000px; height:542px; margin:0 auto; background-color:#484544;}
+.art{width:1000px; height:502px;  margin:0 auto;  padding:0 123px; padding-top:20px; box-sizing:border-box;  }
+
+
+.kim{float:left; width:250px; height:250px; position:relative; text-align: center;  box-sizing:border-box; }
+.kim  figure {	position: relative;	float: left;	overflow: hidden; background: #FFFFFF;	text-align: center;	cursor: pointer;}
+.kim figure img {	position: relative;	 height: 100%;	width: 100%;	opacity: 0.8;}
+.kim figure figcaption {	color: #FFFFFF;	text-transform: uppercase;	font-size: 24px;	-webkit-backface-visibility: hidden;	backface-visibility: hidden;}
+.kim figure figcaption::before,.kim figure figcaption::after {	pointer-events: none;}
+.kim figure figcaption, .kim figure figcaption > a { z-index: 1001;	position: absolute;	top: 0;	left: 0;	width: 100%;	height: 100%;}
+.kim figure figcaption > a {	 z-index: 1001;	text-indent: 200%;	white-space: nowrap;	font-size: 0;	opacity: 0;}
+.kim figure h2 {	color: #FFFFFF; font-size: 24px; word-spacing: -0.15em;	font-weight: 300;}
+.kim figure h2 span {	color: #FFFFFF; font-size: 24px; font-weight: 800;}
+.kim figure h2,.kim figure p {	margin: 0;}
+.kim figure p {	padding-top:20px ;color: #FFFFFF; letter-spacing: 1px;	font-size: 55.5%;}
+
+.kim figure.effect-ming {float:left; background: #030c17;}
+.kim figure.effect-ming img {float:left;opacity: 0.9;	-webkit-transition: opacity 0.35s;	transition: opacity 0.35s;}
+.kim figure.effect-ming figcaption::before {	position: absolute;	top: 30px;	right: 30px;	bottom: 30px;	left: 30px;	border: 2px solid #fff;	box-shadow: 0 0 0 30px rgba(255,255,255,0.2);	content: '';	opacity: 0;	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;	transition: opacity 0.35s, transform 0.35s;	-webkit-transform: scale3d(1.4,1.4,1);	transform: scale3d(1.4,1.4,1);}
+.kim figure.effect-ming h2 {	color: #FFFFFF; margin: 20% 0 10px 0;	-webkit-transition: -webkit-transform 0.35s;	transition: transform 0.35s;}
+.kim figure.effect-ming p { color: #FFFFFF;	padding: 2em 0;	opacity: 0;	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;	transition: opacity 0.35s, transform 0.35s;	-webkit-transform: scale(1.5);	transform: scale(1.5);}
+.kim figure.effect-ming:hover h2 {	color: #FFFFFF; -webkit-transform: scale(0.9);	transform: scale(0.9);}
+.kim figure.effect-ming:hover figcaption::before,figure.effect-ming:hover p {	opacity: 1;	-webkit-transform: scale3d(1,1,1);	transform: scale3d(1,1,1);}
+.kim figure.effect-ming:hover figcaption {	background-color: rgba(58,52,42,0);}
+.kim figure.effect-ming:hover img {	opacity: 0.4;}
+
+.lee{float:left; width:250px; height:250px; padding-left:2px; position:relative; text-align: center;  box-sizing:border-box; }
+.lee figure {	position: relative;	float: left;	overflow: hidden; background: #FFFFFF;	text-align: center;	cursor: pointer;}
+.lee figure img {	position: relative; height: 100%;	width: 100%;	opacity: 0.8;}
+.lee figure figcaption {	color: #FFFFFF;	text-transform: uppercase;	font-size: 24px;	-webkit-backface-visibility: hidden;	backface-visibility: hidden;}
+.lee figure figcaption::before,.lee figure figcaption::after {	pointer-events: none;}
+.lee figure figcaption, .lee figure figcaption > a { z-index: 1001;	position: absolute;	top: 0;	left: 0;	width: 100%;	height: 100%;}
+.lee figure figcaption > a {	 z-index: 1001;	text-indent: 200%;	white-space: nowrap;	font-size: 0;	opacity: 0;}
+.lee figure h2 {	color: #FFFFFF; font-size: 24px; word-spacing: -0.15em;	font-weight: 300;}
+.lee figure h2 span {	color: #FFFFFF; font-size: 24px; font-weight: 800;}
+.lee figure h2,.lee figure p {	margin: 0;}
+.lee figure p {	padding-top:20px ;color: #FFFFFF; letter-spacing: 1px;	font-size: 55.5%;}
+
+.lee figure.effect-ming {float:left; background: #030c17;}
+.lee figure.effect-ming img {float:left; opacity: 0.9;	-webkit-transition: opacity 0.35s;	transition: opacity 0.35s;}
+.lee figure.effect-ming figcaption::before {	position: absolute;	top: 30px;	right: 30px;	bottom: 30px;	left: 30px;	border: 2px solid #fff;	box-shadow: 0 0 0 30px rgba(255,255,255,0.2);	content: '';	opacity: 0;	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;	transition: opacity 0.35s, transform 0.35s;	-webkit-transform: scale3d(1.4,1.4,1);	transform: scale3d(1.4,1.4,1);}
+.lee figure.effect-ming h2 {	color: #FFFFFF; margin: 20% 0 10px 0;	-webkit-transition: -webkit-transform 0.35s;	transition: transform 0.35s;}
+.lee figure.effect-ming p { color: #FFFFFF;	padding: 2em;	opacity: 0;	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;	transition: opacity 0.35s, transform 0.35s;	-webkit-transform: scale(1.5);	transform: scale(1.5);}
+.lee figure.effect-ming:hover h2 {	color: #FFFFFF; -webkit-transform: scale(0.9);	transform: scale(0.9);}
+.lee figure.effect-ming:hover figcaption::before,figure.effect-ming:hover p {	opacity: 1;	-webkit-transform: scale3d(1,1,1);	transform: scale3d(1,1,1);}
+.lee figure.effect-ming:hover figcaption {	background-color: rgba(58,52,42,0);}
+.lee figure.effect-ming:hover img {	opacity: 0.4;}
+
+.cook{float:left;width:250px; height:250px; padding-left:2px; position:relative; text-align: center; box-sizing:border-box; }
+.cook figure {	position: relative;	float:left;	overflow: hidden; background: #FFFFFF;	text-align: center;	cursor: pointer;}
+.cook figure img {	position: relative;	height: 100%;	width: 100%;	opacity: 0.8;}
+.cook figure figcaption {	color: #FFFFFF;	text-transform: uppercase;	font-size: 24px;	-webkit-backface-visibility: hidden;	backface-visibility: hidden;}
+.cook figure figcaption::before,.cook figure figcaption::after {	pointer-events: none;}
+.cook figure figcaption, .cook figure figcaption > a { z-index: 1001;	position: absolute;	top: 0;	left: 0;	width: 100%;	height: 100%;}
+.cook figure figcaption > a {	 z-index: 1001;	text-indent: 200%;	white-space: nowrap;	font-size: 0;	opacity: 0;}
+.cook figure h2 {	color: #FFFFFF; font-size: 24px; word-spacing: -0.15em;	font-weight: 300;}
+.cook figure h2 span {	color: #FFFFFF; font-size: 24px; font-weight: 800;}
+.cook figure h2,.cook figure p {	margin: 0;}
+.cook figure p {	padding-top:20px ;color: #FFFFFF; letter-spacing: 1px;	font-size: 55.5%;}
+
+.cook figure.effect-ming {float:left; background: #030c17;}
+.cook figure.effect-ming img {float:left; opacity: 0.9;	-webkit-transition: opacity 0.35s;	transition: opacity 0.35s;}
+.cook figure.effect-ming figcaption::before {	position: absolute;	top: 30px;	right: 30px;	bottom: 30px;	left: 30px;	border: 2px solid #fff;	box-shadow: 0 0 0 30px rgba(255,255,255,0.2);	content: '';	opacity: 0;	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;	transition: opacity 0.35s, transform 0.35s;	-webkit-transform: scale3d(1.4,1.4,1);	transform: scale3d(1.4,1.4,1);}
+.cook figure.effect-ming h2 {	color: #FFFFFF; margin: 20% 0 10px 0;	-webkit-transition: -webkit-transform 0.35s;	transition: transform 0.35s;}
+.cook figure.effect-ming p { color: #FFFFFF;	padding: 2em;	opacity: 0;	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;	transition: opacity 0.35s, transform 0.35s;	-webkit-transform: scale(1.5);	transform: scale(1.5);}
+.cook figure.effect-ming:hover h2 {	color: #FFFFFF; -webkit-transform: scale(0.9);	transform: scale(0.9);}
+.cook figure.effect-ming:hover figcaption::before,figure.effect-ming:hover p {	opacity: 1;	-webkit-transform: scale3d(1,1,1);	transform: scale3d(1,1,1);}
+.cook figure.effect-ming:hover figcaption {	background-color: rgba(58,52,42,0);}
+.cook figure.effect-ming:hover img {	opacity: 0.4;}
+
+.john{float:left; width:250px; height:250px; padding-top:2px;  position:relative; text-align: center;box-sizing:border-box;}
+.john figure {	position: relative;	float:right;	overflow: hidden; background: #FFFFFF;	text-align: center;	cursor: pointer;}
+.john figure img {	position: relative;	 height: 100%;	width: 100%;	opacity: 0.8;}
+.john figure figcaption {	color: #FFFFFF;	text-transform: uppercase;	font-size: 24px;	-webkit-backface-visibility: hidden;	backface-visibility: hidden;}
+.john figure figcaption::before,.john figure figcaption::after {	pointer-events: none;}
+.john figure figcaption, .john figure figcaption > a { z-index: 1001;	position: absolute;	top: 0;	left: 0;	width: 100%;	height: 100%;}
+.john figure figcaption > a {	 z-index: 1001;	text-indent: 200%;	white-space: nowrap;	font-size: 0;	opacity: 0;}
+.john figure h2 {	color: #FFFFFF; font-size: 24px; word-spacing: -0.15em;	font-weight: 300;}
+.john figure h2 span {	color: #FFFFFF; font-size: 24px; font-weight: 800;}
+.john figure h2,.john figure p {	margin: 0;}
+.john figure p {	padding-top:20px ;color: #FFFFFF; letter-spacing: 1px;	font-size: 55.5%;}
+
+.john figure.effect-ming {float:left; background: #030c17; }
+.john figure.effect-ming img {float:left; opacity: 0.9;	-webkit-transition: opacity 0.35s;	transition: opacity 0.35s;}
+.john figure.effect-ming figcaption::before {	position: absolute;	top: 30px;	right: 30px;	bottom: 30px;	left: 30px;	border: 2px solid #fff;	box-shadow: 0 0 0 30px rgba(255,255,255,0.2);	content: '';	opacity: 0;	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;	transition: opacity 0.35s, transform 0.35s;	-webkit-transform: scale3d(1.4,1.4,1);	transform: scale3d(1.4,1.4,1);}
+.john figure.effect-ming h2 {	color: #FFFFFF; margin: 20% 0 10px 0;	-webkit-transition: -webkit-transform 0.35s;	transition: transform 0.35s;}
+.john figure.effect-ming p { color: #FFFFFF;	padding: 2em;	opacity: 0;	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;	transition: opacity 0.35s, transform 0.35s;	-webkit-transform: scale(1.5);	transform: scale(1.5);}
+.john figure.effect-ming:hover h2 {	color: #FFFFFF; -webkit-transform: scale(0.9);	transform: scale(0.9);}
+.john figure.effect-ming:hover figcaption::before,figure.effect-ming:hover p {	opacity: 1;	-webkit-transform: scale3d(1,1,1);	transform: scale3d(1,1,1);}
+.john figure.effect-ming:hover figcaption {	background-color: rgba(58,52,42,0);}
+.john figure.effect-ming:hover img {	opacity: 0.4;}
+
+.eon{float:left; width:250px; height:250px;  padding-left:2px; padding-top:2px; position:relative; text-align: center;   box-sizing:border-box;}
+.eon figure {	position: relative;	float:right;	overflow: hidden; background: #FFFFFF;	text-align: center;	cursor: pointer;}
+.eon figure img {	position: relative;	 height: 100%;	width: 100%;	opacity: 0.8;}
+.eon figure figcaption {	color: #FFFFFF;	text-transform: uppercase;	font-size: 24px;	-webkit-backface-visibility: hidden;	backface-visibility: hidden;}
+.eon figure figcaption::before,.eon figure figcaption::after {	pointer-events: none;}
+.eon figure figcaption, .eon figure figcaption > a { z-index: 1001;	position: absolute;	top: 0;	left: 0;	width: 100%;	height: 100%;}
+.eon figure figcaption > a {	 z-index: 1001;	text-indent: 200%;	white-space: nowrap;	font-size: 0;	opacity: 0;}
+.eon figure h2 {	color: #FFFFFF; font-size: 24px; word-spacing: -0.15em;	font-weight: 300;}
+.eon figure h2 span {	color: #FFFFFF; font-size: 24px; font-weight: 800;}
+.eon figure h2,.eon figure p {	margin: 0;}
+.eon figure p {	padding-top:20px ;color: #FFFFFF; letter-spacing: 1px;	font-size: 55.5%;}
+
+.eon  figure.effect-ming {float:left; background: #030c17;}
+.eon  figure.effect-ming img {float:left; opacity: 0.9;	-webkit-transition: opacity 0.35s;	transition: opacity 0.35s;}
+.eon  figure.effect-ming figcaption::before {	position: absolute;	top: 30px;	right: 30px;	bottom: 30px;	left: 30px;	border: 2px solid #fff;	box-shadow: 0 0 0 30px rgba(255,255,255,0.2);	content: '';	opacity: 0;	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;	transition: opacity 0.35s, transform 0.35s;	-webkit-transform: scale3d(1.4,1.4,1);	transform: scale3d(1.4,1.4,1);}
+.eon  figure.effect-ming h2 {	color: #FFFFFF; margin: 20% 0 10px 0;	-webkit-transition: -webkit-transform 0.35s;	transition: transform 0.35s;}
+.eon  figure.effect-ming p { color: #FFFFFF;	padding: 2em;	opacity: 0;	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;	transition: opacity 0.35s, transform 0.35s;	-webkit-transform: scale(1.5);	transform: scale(1.5);}
+.eon  figure.effect-ming:hover h2 {	color: #FFFFFF; -webkit-transform: scale(0.9);	transform: scale(0.9);}
+.eon  figure.effect-ming:hover figcaption::before,figure.effect-ming:hover p {	opacity: 1;	-webkit-transform: scale3d(1,1,1);	transform: scale3d(1,1,1);}
+.eon  figure.effect-ming:hover figcaption {	background-color: rgba(58,52,42,0);}
+.eon  figure.effect-ming:hover img {	opacity: 0.4;}
+
+
+
+
+.cherry{ float:left; width:250px; height:250px;  padding-left:2px; padding-top:2px; position:relative; text-align: center;  box-sizing:border-box;}
+.cherry figure {	position: relative;	float:left;	overflow: hidden; background: #FFFFFF;	text-align: center;	cursor: pointer;}
+.cherry figure img {	position: relative;	 height: 100%;	width: 100%;	opacity: 0.8;}
+.cherry figure figcaption {	color: #FFFFFF;	text-transform: uppercase;	font-size: 24px;	-webkit-backface-visibility: hidden;	backface-visibility: hidden;}
+.cherry figure figcaption::before,.cherry figure figcaption::after {	pointer-events: none;}
+.cherry figure figcaption, .cherry figure figcaption > a { z-index: 1001;	position: absolute;	top: 0;	left: 0;	width: 100%;	height: 100%;}
+.cherry figure figcaption > a {	 z-index: 1001;	text-indent: 200%;	white-space: nowrap;	font-size: 0;	opacity: 0;}
+.cherry figure h2 {	color: #FFFFFF; font-size: 24px; word-spacing: -0.15em;	font-weight: 300;}
+.cherry figure h2 span {	color: #FFFFFF; font-size: 24px; font-weight: 800;}
+.cherry figure h2,.cherry figure p {	margin: 0;}
+.cherry figure p {	padding-top:20px ;color: #FFFFFF; letter-spacing: 1px;	font-size: 55.5%;}
+
+.cherry  figure.effect-ming {float:left; background: #030c17;}
+.cherry  figure.effect-ming img {float:left; opacity: 0.9;	-webkit-transition: opacity 0.35s;	transition: opacity 0.35s;}
+.cherry  figure.effect-ming figcaption::before {	position: absolute;	top: 30px;	right: 30px;	bottom: 30px;	left: 30px;	border: 2px solid #fff;	box-shadow: 0 0 0 30px rgba(255,255,255,0.2);	content: '';	opacity: 0;	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;	transition: opacity 0.35s, transform 0.35s;	-webkit-transform: scale3d(1.4,1.4,1);	transform: scale3d(1.4,1.4,1);}
+.cherry  figure.effect-ming h2 {	color: #FFFFFF; margin: 20% 0 10px 0;	-webkit-transition: -webkit-transform 0.35s;	transition: transform 0.35s;}
+.cherry  figure.effect-ming p { color: #FFFFFF;	padding: 2em;	opacity: 0;	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;	transition: opacity 0.35s, transform 0.35s;	-webkit-transform: scale(1.5);	transform: scale(1.5);}
+.cherry  figure.effect-ming:hover h2 {	color: #FFFFFF; -webkit-transform: scale(0.9);	transform: scale(0.9);}
+.cherry  figure.effect-ming:hover figcaption::before,figure.effect-ming:hover p {	opacity: 1;	-webkit-transform: scale3d(1,1,1);	transform: scale3d(1,1,1);}
+.cherry  figure.effect-ming:hover figcaption {	background-color: rgba(58,52,42,0);}
+.cherry  figure.effect-ming:hover img {	opacity: 0.4;}
+
+
+
+
+.line{ width:100%; height:360px;  margin:0 auto;}
+.text { float:left; width:100%; min-width:1000px; height: 100px;  margin:0 auto; background-image:url(../images/line001.png);  }
+.text h3{ width:200px; height:50; background-color:#FFF; margin:0 auto; line-height: 50px; padding:17px 0;}
+.text h3 span.bg{ font-size: 30px; font-weight: normal; text-align:center; padding-left:32.27px; margin:0; }
+.subText{width:1000px; height:260px;  margin:0 auto;  padding:0 123px; box-sizing:border-box; text-align:center;  }
+.subText h4{ padding-left: 30px; font-size: 45px; color:#484544; font-weight:bolder;  padding-top:20px; letter-spacing:-2px;}
+.subText p{ padding-left: 30px; font-size:16px; padding-top:25px;} 
+
+.adr{width:100%; min-width:1000px; height: 162px;  margin:0 auto; background-color:#efeae6; margin-bottom:15px;}
+.text01{width:1000px; height:162px;  margin:0 auto;  padding:0 197px; box-sizing:border-box;  }
+.text01 h6{ font-size:20px; font-weight:bold; padding-top:15px; padding-bottom:15px;}
+.text01 p span{ font-size:15px; font-weight:bolder;}
+.text01 p{font-size:15px; font-weight:normal;}
+
+.map{width:100%; min-width:1000px; height: 379px; margin:0 auto;}
+.space{width:1000px; height:379px;  margin:0 auto;  padding:0 167px; box-sizing:border-box; }
+.map img{ width:666px; height:379px; margin:0 auto;}
+
+
+.way {width:100%; min-width:1000px; height:180px; margin:0 auto; background-color:#efeae6; margin-top:15px; margin-bottom:50px; }
+.text02{ width:1000px; height:170px;  margin:0 auto;  padding:0 167px; box-sizing:border-box; }
+.text02 h6{ width:666px; height:20px; font-size:17px; font-weight:bolder; padding-top:15px; padding-bottom:10px; padding-left:35px; }
+.sub{ float:left; width:666px;  height: 40px; box-sizing:border-box; padding-left:30px;}
+.sub img{ float:left; width:26px; height:26px; padding-right:5px; }
+.sub p{padding-top:5px;  font-size:13px;}
+.sub p .gold{ font-size:14px; font-weight:bold; color:#bf9b1f;}
+
+.bus{ float:right; width:666px;  height:40px; box-sizing:border-box; padding-left:30px;}
+.bus img{float:left; width:27px; height:25px; padding-right:5px; }
+.bus p{padding-top:3px;  font-size:13px;}
+.bus p .strong{ font-size:14px; font-weight:bolder;}
+
+.park{ width:666px; height:33px; box-sizing:border-box;   padding-left:30px;}
+.park img{float:left; width:33px; height:29px; padding-right:5px;}
+.park p{padding-top:88px;  font-size:13px;}
+.park p .strong{ font-size:14px ; font-weight:bolder;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

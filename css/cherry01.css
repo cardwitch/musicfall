@@ -1,0 +1,146 @@
+@media screen and (min-width:960px){
+
+
+section{ width:100%; min-width:1000px; height:3550px; box-sizing:border-box;  }
+.mSlider{ width: 100%;  min-width:1000px; height:550px; overflow: hidden;  background-color:#7a5163; background-size: 550px cover; background-repeat:no-repeat;}
+.slides{width:1000px; height:550px; margin:0 auto;}
+.s01 img{width:100%; height:550px; margin:0 auto;}
+.s02 img{width:100%; height:550px; margin:0 auto;}
+.s03 img{ width:100%; height:550px; margin:0 auto;}
+
+.con{ width:100%; min-width:1000px; height:3000px; overflow: hidden;  }
+.sub{ width:1000px; height:3000px;  margin:0 auto; background-image:url(../images/cheBg01.png); background-repeat:no-repeat; box-sizing:border-box; border-right: 1px solid #7a5163; border-left: 1px solid #7a5163; }
+
+.jin{ float:left; width:28%; height:3000px; box-sizing:border-box;}
+.icons{float:left; width:44%;height:3000px; box-sizing:border-box;text-align:center;}
+.che{ float:left; width:28%; height:3000px; box-sizing:border-box;}
+
+.icons007{display:none; }
+/*jin*/
+
+.perfect{ float:left; width:100%; height:250px; margin-top:150px; position:relative;}
+.perfect img{ float:right;width:180px; height:180px;}
+.perfect p{ float:right; font-size:13px;color:#7a5163;} 
+.perfect p .red{ font-size:13px; color:#9e4623; font-weight:bolder;}
+.perfect p.first{ position:absolute; top:215px; right:0px;}
+.perfect img.video{ width:17px; height:14px;margin-top:3px; margin-right:3px; position:absolute; top:215px; right:55px;}
+
+.tellme{ float:left; width:100%; height:244px; margin-top:13px;position:relative;}
+.tellme img{ float:right;width:180px; height:180px;}
+.tellme p{ float:right; font-size:13px;color:#7a5163;} 
+.tellme p .red{font-size:13px; color:#9e4623; font-weight:bolder; position:absolute; top:199px; right:0;}
+
+.killH{ float:left; width:100%; height:266px; margin-top:22px; position:relative; }
+.killH img{ float:right; width:180px; height:180px;}
+.killH p{ float:right; font-size:13px;color:#7a5163;} 
+.killH p .red{ font-size:13px; color:#9e4623; font-weight:bolder; position:absolute; top:199px; right: 0;}
+.killH p.first{position:absolute; top:235px;  right: 0;}
+.killH img.video{width:17px; height:14px;margin-top:3px; margin-right:3px; position:absolute; top:236px; right: 65px;}
+
+.orange{ float:left; width:100%; height:230px; margin-top:17px; position:relative;}
+.orange img{ float:right;width:180px; height:180px;}
+.orange p{ float:right; font-size:13px;color:#7a5163;} 
+.orange p .red{ font-size:13px; color:#9e4623; font-weight:bolder; position:absolute; top:216px;  right: 0;}
+.orange p.first{ float:right; position:absolute; top:198px; right:0;}
+.orange img.video{ float:right; width:17px; height:14px;margin-top:5px; margin-right:3px; position:absolute; top:198px; right:85px;}
+
+.beat{ float:left; width:100%; height:242px; margin-top:616px; position:relative;}
+.beat img{ float:right;width:180px; height:180px;}
+.beat p{ float:right; font-size:13px;color:#7a5163;} 
+.beat p .red{ font-size:13px; color:#9e4623; font-weight:bolder;  position:absolute;  top:215px; right:0;}
+.beat p.first{ font-size:13px;  position:absolute;  top:197px; right:0;}
+
+.jtwo{ float:left; width:100%; height:232px; margin-top:43px;  position:relative;}
+.jtwo img{ float:right;width:180px; height:180px;}
+.jtwo p{ float:right;font-size:13px;color:#7a5163;} 
+.jtwo p .red{ font-size:13px; color:#9e4623; font-weight:bolder;position:absolute; top:218px; right:0;}
+.jtwo p.first{ position:absolute; top:197px; right:0;}
+.jtwo img.video{ float:right; width:17px; height:14px;margin-top:5px; margin-right:3px;position:absolute;
+ top:197px; right:35px;}
+
+.jone{ float:left; width:100%; height:257px; margin-top:46px; position:relative;}
+.jone img{float:right; width:180px; height:180px;}
+.jone p{ float:right;font-size:13px;color:#7a5163;} 
+.jone p .red{ font-size:13px; color:#9e4623; font-weight:bolder; top:218px;  right:0;}
+.jone p.first{ position:absolute; top:197px; right:0;}
+.jone img.video{ float:right; width:17px; height:14px;margin-top:5px; margin-right:3px;
+position:absolute; top:197px; right:62px;}
+
+
+/*icons*/
+
+.music{ width:100%; height:90px; text-align:center; margin-top:1222px; margin-bottom:1109px; }
+.music img{ width:100px; height:90px};
+
+.hand{ float:left; width:100%; height:280px; text-align:center;}
+.paris{ width:200px; height:260px; margin: auto; }
+.paris img{ width:180px; height:180px;}
+.paris p{ font-size:13px;color:#7a5163;} 
+.paris img.video{ width:17px; height:14px;margin-top:5px; margin-right:3px;}
+.paris p .red{ font-size:13px; color:#9e4623; font-weight:bolder;}
+
+.guitar{ width:100%; height:70px; text-align:center; margin-top:20px; }
+.guitar img{ width:60px; height:60px; padding: 0 10px; }
+
+.site{ float:left; width:100%; height:150px; text-align:center; box-sizing:border-box; margin-top:50px;}
+.site li a{ cursor:pointer; font-size: 26px; font-weight:bold; text-align:center; color:#FFFFFF;}
+.site li a:hover{cursor:pointer;color: #9e4623;}
+.site img{ width:25px; height:25px; margin-top:25px; padding: 0 10px;}
+
+/*che*/
+
+.andro{ float:left; width:100%; height:230px; margin-top:150px;}
+.andro img{ width:180px; height:180px; }
+.andro p{ font-size:13px;color:#7a5163;} 
+.andro p .red{ font-size:13px; color:#9e4623; font-weight:bolder;}
+.andro img.video{ float:left; width:17px; height:14px;margin-top:5px; margin-right:3px;}
+
+.wm7{ float:left; width:100%; height:206px; margin-top:17px;}
+.wm7 img{ width:180px; height:180px; }
+.wm7 p{ font-size:13px;color:#7a5163;} 
+.wm7 p .red{ font-size:13px; color:#9e4623; font-weight:bolder;}
+
+.rock{ float:left; width:100%; height:224px; margin-top:30px;}
+.rock img{ width:180px; height:180px; }
+.rock p{ font-size:13px;color:#7a5163;} 
+.rock p .red{ font-size:13px; color:#9e4623; font-weight:bolder;}
+.rock img.video{ float:left; width:17px; height:14px;margin-top:5px; margin-right:3px;}
+
+.rew{ float:left; width:100%; height:226px; margin-top:50px;}
+.rew img{ width:180px; height:180px; }
+.rew p{ font-size:13px;color:#7a5163;} 
+.rew p .red{ font-size:13px; color:#9e4623; font-weight:bolder;}
+.rew img.video{ float:left; width:17px; height:14px;margin-top:5px; margin-right:3px;}
+
+.rose{ float:left; width:100%; height:230px; margin-top:265px;}
+.rose img{ width:180px; height:180px; }
+.rose p{ font-size:13px;color:#7a5163;} 
+.rose p .red{ font-size:13px; color:#9e4623; font-weight:bolder;}
+.rose img.video{ float:left; width:17px; height:14px;margin-top:5px; margin-right:3px;}
+
+.no{ float:left; width:100%; height:205px; margin-top:48px;}
+.no img{ width:180px; height:180px; }
+.no p{ font-size:13px;color:#7a5163;} 
+.no p .red{ font-size:13px; color:#9e4623; font-weight:bolder;}
+.no img.video{ float:left; width:17px; height:14px;margin-top:5px; margin-right:3px;}
+
+
+.third{ float:left; width:100%; height:230px; margin-top:58px;}
+.third img{ width:180px; height:180px; }
+.third p{ font-size:13px;color:#7a5163;} 
+.third p .red{ font-size:13px; color:#9e4623; font-weight:bolder;}
+.third img.video{ float:left; width:17px; height:14px;margin-top:5px; margin-right:3px;}
+
+.korea{ float:left; width:100%; height:251px; margin-top:63px;}
+.korea img{ width:180px; height:180px; }
+.korea p{ font-size:13px;color:#7a5163;} 
+.korea p .red{ font-size:13px; color:#9e4623; font-weight:bolder;}
+.korea img.video{ float:left; width:17px; height:14px;margin-top:3px; margin-right:3px;}
+
+
+
+
+
+
+
+}

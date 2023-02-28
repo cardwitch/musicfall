@@ -1,0 +1,13 @@
+/* base - 브라우저 초기화작업 */
+
+
+*{ margin: 0; padding: 0; font-family: 'Spoqa Han Sans', 'Sans-serif'; monospace; font-size: 12px; color:#666666; }
+li{ list-style: none; }
+a{ text-decoration: none; } 
+img{ border: none; }
+table{ border-collapse:collapse; border-spacing: 0px; }
+address{ font-style: normal; }
+fieldset{ border: none; }
+legend{ position: absolute; left: -999em; }
+input[type=button], input[type=submit], input[type=reset], input[type=image], button{ cursor: pointer; }
+label.away{ position: absolute; left: -999em; }

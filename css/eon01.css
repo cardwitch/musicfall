@@ -1,0 +1,85 @@
+@media screen and (min-width:960px){
+
+section{ width:100%; min-width:1000px; height:2000px; box-sizing:border-box;  }
+.mSlider{ width:100%; min-width:1000px; height:540px; margin:0 auto; padding:20px 0; box-sizing:border-box; background-color:#484544; background-size: 540px cover; background-repeat:no-repeat; overflow: hidden;  }
+.slides{width:1000px; height:500px; margin:0 auto;}
+.s01 img{width:100%; height:500px; margin:0 auto;}
+.s02 img{ width:100%; height:500px; margin:0 auto;}
+.s03 img{ width:100%; height:500px; margin:0 auto;}
+
+
+.tabBox{ width: 1000px; height: 1345px; margin:0 auto; margin-top:55px; }
+.tab{ width: 666px; height:85px; margin-left:167px; box-sizing:border-box; }
+.tab li{ float: left; width: 333px; height: 85px; text-align: center; line-height: 84px; border: 5px solid #b1cbc9; box-sizing:border-box; z-index:1999; }
+.tab li.last{ border: 5px solid #efd2bf;}
+.tab li a{ display: block;  font-size: 30px; font-weight:bold; width: 100%; height: 100%; }
+.tab li.on a{   color:#af9482;  }
+
+.conWrap > div { width:1000px; height: 1205px;  margin:0 auto; display: none; }
+
+/* con01 */
+
+.conWrap .con01{ margin-top:50px;  box-sizing: border-box;  background-color: #FFFFFF;  }
+
+.jacket{ width:1000px; height:180px; }
+.jacket img{ width:333px; height:167px; margin-left:333px;}
+.lyrics{height: 800px; margin: 0 150px; }
+
+.lyrics h2{  height:20px; line-height:20px; font-size:17px; text-align:center; margin:5px 0px; }
+.lyrics h4{ height:14px; line-height:14px; font-size:13px; text-align:center; margin-bottom:20px; }
+
+.lyrics dt{ width: 700px; height: 32px; line-height: 32px; position: relative; box-sizing: border-box; }
+
+.lyrics dd{ width: 700px; height: 364px; line-height: 30px; background-color: #ededed; padding-left:40px; box-sizing: border-box; }
+.lyrics dd.R01, .R11{ height:64px;}
+.lyrics dd.R02, .R03, .R04, .R08{ height:364px;}
+.lyrics dd.R05{height:444px;}
+.lyrics dd.R06{height:444px;}
+.lyrics dd.R07{height:780px;}
+.lyrics dd.R09{height:480px;}
+.lyrics dd.R10{height:530px;}
+
+.lyrics dd.R02 table{ width:100%; height:360px; border:none; margin:0; padding:0;}
+.lyrics dd.R03 table{ width:100%; height:360px; border:none; margin:0; padding:0;}
+.lyrics dd.R04 table{ width:100%; height:360px; border:none; margin:0; padding:0;}
+.lyrics dd.R05 table{ width:100%; height:360px; border:none; margin:0; padding:0;}
+.lyrics dd.R06 table{ width:100%; height:360px; border:none; margin:0; padding:0;}
+.lyrics dd.R07 table{ width:100%; height:360px; border:none; margin:0; padding:0;}
+.lyrics dd.R08 table{ width:100%; height:360px; border:none; margin:0; padding:0;}
+.lyrics dd.R09 table{ width:100%; height:360px; border:none; margin:0; padding:0;}
+.lyrics dd.R10 table{ width:100%; height:360px; border:none; margin:0; padding:0;}
+
+
+.R02, .R03, .R04, .R05, .R06, .R07, .R08, .R09, .R10 table th{width: 50%; height:360px; padding-top:0px; text-align:center; box-sizing:border-box;  vertical-align: top;}
+
+
+.lyrics .icon{ display: block; width: 20px; height: 20px; text-align: center; line-height: 20px;  position: absolute; top: 5px; right: 20px; }
+.lyrics .strong{ font-weight:bold; padding-right:300px;}
+.lyrics .right{ position:absolute;  right:100px;}
+
+.lyrics dt a{ display: block; width: 700px; height: 32px; box-sizing: border-box; text-decoration: none; padding-left: 20px;  }
+.lyrics dt a.L01{ background-image:url(../images/eon_bg_1.png); position:relative;}
+.lyrics dt a.L02{background-image:url(../images/eon_bg_2.png);}
+.lyrics dt a.L03{background-image:url(../images/eon_bg_3.png);}
+.lyrics dt a.L04{background-image:url(../images/eon_bg_4.png);}
+.lyrics dt a.L05{background-image:url(../images/eon_bg_5.png);}
+.lyrics dt a.L06{background-image:url(../images/eon_bg_6.png);}
+.lyrics dt a.L07{background-image:url(../images/eon_bg_7.png);}
+.lyrics dt a.L08{background-image:url(../images/eon_bg_8.png);}
+.lyrics dt a.L09{background-image:url(../images/eon_bg_9.png);}
+.lyrics dt a.L10{background-image:url(../images/eon_bg_10.png);}
+.lyrics dt a.L11{height: 64px; background-image:url(../images/eon_bg_11.png);}
+
+
+/* con02 */
+
+.conWrap .con02{ margin-top:50px;  box-sizing: border-box;  background-color: #FFFFFF;  }
+#mvBox{ width:1000px; height: 1000px;}
+#mvBox iframe{ display:block; padding-left:150px; }
+#mvBox p{ font-size:14px; font-weight:bold; padding: 20px 0; text-align:center;}
+
+.ctr{width:1000px; height:150px; padding:0 140px;}
+.ctr li a img{ float:left; width:130px; height:100px; padding-left:10px;}
+
+
+}

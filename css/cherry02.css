@@ -1,0 +1,144 @@
+
+@media screen and (min-width:768px) and (max-width:959px){
+
+section{ width:100%;height:2810px; box-sizing:border-box;  }
+.mSlider{ width: 100%; height:550px; overflow: hidden; margin:0 auto;  background-color:#7a5163;  background-size: 550px cover; background-repeat:no-repeat;}
+.slides{ float:left; width: 100%;  height:550px; position:relative;}
+.s01 img.crop{position: absolute;    left: -100%;  right: -100%;    top: 550px;    bottom: 0;    margin: auto;      width: auto;}
+.s02 img.crop{position: absolute;    left: -100%;  right: -100%;    top: 550px;     bottom: 0;    margin: auto;        width: auto;}
+.s03 img.crop{ position: absolute;    left: -100%;  right: -100%;   top: 550px;    bottom: 0;    margin: auto;        width: auto;}
+
+.con{ width:100%; height:2260px; overflow: hidden;  }
+.sub{ width:100%; height:2260px;  margin:0 auto; background-image:url(../images/chetBg01.png); background-size: 100% 100%; background-repeat:no-repeat; box-sizing:border-box; }
+
+.jin{ float:left; width:25.62%; height:2260px; box-sizing:border-box;}
+.icons{float:left; width:48.75%;height:2260px; box-sizing:border-box;text-align:center;}
+.che{ float:left; width:25.62%; height:2260px; box-sizing:border-box;}
+.icons007{display:none;}
+
+/*jin*/
+
+.perfect{ float:left; width:100%; height:188px; margin-top:75px; position:relative;}
+.perfect img{ float:right;width:135px; height:135px;}
+.perfect p{ float:right; font-size:11px;color:#7a5163;} 
+.perfect p .red{ font-size:11px; color:#9e4623; font-weight:bolder;}
+.perfect p.first{ position:absolute; top:165px; right:0px;}
+.perfect img.video{ width:14px; height:10px;margin-top:3px; margin-right:3px; position:absolute; top:165px; right:47px;}
+
+.tellme{ float:left; width:100%; height:185px; margin-top:10px;position:relative;}
+.tellme img{ float:right;width:135px; height:135px;}
+.tellme p{ float:right; font-size:11px;color:#7a5163;} 
+.tellme p .red{font-size:11px; color:#9e4623; font-weight:bolder; position:absolute; top:149px; right:0;}
+
+.killH{ float:left; width:100%; height:194px; margin-top:15px; position:relative; }
+.killH img{ float:right; width:135px; height:135px;}
+.killH p{ float:right; font-size:11px;color:#7a5163;} 
+.killH p .red{ font-size:11px; color:#9e4623; font-weight:bolder; position:absolute; top:165px; right: 0;}
+.killH p.first{position:absolute; top:165px;  right: 0;}
+.killH img.video{width:14px; height:11px;margin-top:3px; margin-right:3px; position:absolute; top:165px; right: 55px;}
+
+.orange{ float:left; width:100%; height:175px; margin-top:20px; position:relative;}
+.orange img{ float:right;width:135px; height:135px; }
+.orange p{ float:right; font-size:11px;color:#7a5163;} 
+.orange p .red{ font-size:11px; color:#9e4623; font-weight:bolder; position:absolute; top:162px;  right: 0;}
+.orange p.first{ float:right; position:absolute; top:148px; right:0;}
+.orange img.video{ float:right; width:13px; height:11px;margin-top:5px; margin-right:3px; position:absolute; top:148px; right:75px;}
+
+.beat{ float:left; width:100%; height:180px; margin-top:455px; position:relative;}
+.beat img{ float:right; width:135px; height:135px;}
+.beat p{ float:right; font-size:11px;color:#7a5163;} 
+.beat p .red{ font-size:11px; color:#9e4623; font-weight:bolder;  position:absolute;  top:163px; right:0;}
+.beat p.first{ font-size:11px;  position:absolute;  top:149px; right:0;}
+
+.jtwo{ float:left; width:100%; height:170px; margin-top:19px;  position:relative;}
+.jtwo img{ float:right;width:135px; height:135px;}
+.jtwo p{ float:right;font-size:11px;color:#7a5163;} 
+.jtwo p .red{ font-size:11px; color:#9e4623; font-weight:bolder;position:absolute; top:163px; right:0;}
+.jtwo p.first{ position:absolute; top:147px; right:0;}
+.jtwo img.video{ float:right; width:14px; height:11px;margin-top:3px; margin-right:3px;position:absolute;
+ top:147px; right:25px;}
+
+.jone{ float:left; width:100%; height:194px; margin-top:20px; position:relative;}
+.jone img{float:right; width:135px; height:135px;}
+.jone p{ float:right;font-size:11px;color:#7a5163;} 
+.jone p .red{ font-size:11px; color:#9e4623; font-weight:bolder; top:151px; right:0;}
+.jone p.first{ position:absolute; top:165px; right:0;}
+.jone img.video{ float:right; width:14px; height:11px;margin-top:5px; margin-right:3px;
+position:absolute; top:165px; right:52px;}
+
+
+/*icons*/
+
+.music{ width:100%; height:90px; text-align:center; margin-top:880px; margin-bottom:855px; }
+.music img{ width:85px; height:75px};
+
+.hand{ float:left; width:100%; height:175px; text-align:center;}
+.paris{ width:200px; height:260px; margin: auto; }
+.paris img{ width:150px; height:150px;}
+.paris p{ font-size:11px;color:#7a5163;} 
+.paris img.video{ width:14px; height:11px;margin-top:5px; margin-right:3px;}
+.paris p .red{ font-size:11px; color:#9e4623; font-weight:bolder;}
+
+.guitar{ display:none; }
+
+.site{ float:left; width:100%; height:150px; text-align:center; box-sizing:border-box; margin-top:20px;}
+.site li a{ cursor:pointer; font-size: 22px; font-weight:bold; text-align:center; color:#FFFFFF;}
+.site li a:hover{cursor:pointer;color: #9e4623;}
+.site img{ width:25px; height:25px; margin-top:15px; padding: 0 5px;}
+
+/*che*/
+
+.andro{ float:left; width:100%; height:175px; margin-top:90px;}
+.andro img{ width:135px; height:135px; }
+.andro p{ font-size:11px;color:#7a5163;} 
+.andro p .red{ font-size:11px; color:#9e4623; font-weight:bolder;}
+.andro img.video{ float:left; width:14px; height:11px;margin-top:5px; margin-right:3px;}
+
+.wm7{ float:left; width:100%; height:156px; margin-top:106px;}
+.wm7 img{ width:135px; height:135px; }
+.wm7 p{ font-size:11px;color:#7a5163;} 
+.wm7 p .red{ font-size:11px; color:#9e4623; font-weight:bolder;}
+
+.rock{ float:left; width:100%; height:175px; margin-top:34px;}
+.rock img{ width:135px; height:135px; }
+.rock p{ font-size:11px;color:#7a5163;} 
+.rock p .red{ font-size:11px; color:#9e4623; font-weight:bolder;}
+.rock img.video{ float:left; width:14px; height:11px;margin-top:5px; margin-right:3px;}
+
+.rew{ float:left; width:100%; height:226px; margin-top:60px;}
+.rew img{ width:135px; height:135px; }
+.rew p{ font-size:11px;color:#7a5163;} 
+.rew p .red{ font-size:11px; color:#9e4623; font-weight:bolder;}
+.rew img.video{ float:left; width:14px; height:11px;margin-top:3px; margin-right:3px;}
+
+.rose{ float:left; width:100%; height:166px; margin-top:80px;}
+.rose img{ width:135px; height:135px; }
+.rose p{ font-size:11px;color:#7a5163;} 
+.rose p .red{ font-size:11px; color:#9e4623; font-weight:bolder;}
+.rose img.video{ float:left; width:14px; height:13px;margin-top:5px; margin-right:3px;}
+
+.no{ float:left; width:100%; height:155px; margin-top:23px;}
+.no img{ width:135px; height:135px; }
+.no p{ font-size:11px;color:#7a5163;} 
+.no p .red{ font-size:11px; color:#9e4623; font-weight:bolder;}
+.no img.video{ float:left; width:14px; height:13px;margin-top:5px; margin-right:3px;}
+
+
+.third{ float:left; width:100%; height:170px; margin-top:32px;}
+.third img{ width:135px; height:135px; }
+.third p{ font-size:11px;color:#7a5163;} 
+.third p .red{ font-size:11px; color:#9e4623; font-weight:bolder;}
+.third img.video{ float:left; width:14px; height:11px;margin-top:5px; margin-right:3px;}
+
+.korea{ float:left; width:100%; height:200px; margin-top:25px;}
+.korea img{ width:135px; height:135px; }
+.korea p{ font-size:11px;color:#7a5163;} 
+.korea p .red{ font-size:11px; color:#9e4623; font-weight:bolder;}
+.korea img.video{ float:left; width:14px; height:11px;margin-top:3px; margin-right:3px;}
+
+
+
+
+
+
+}

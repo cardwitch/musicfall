@@ -1,0 +1,149 @@
+@media screen and (min-width:768px) and (max-width:959px){ 
+
+
+
+section{ width:100%; height:3010px; box-sizing:border-box;  }
+.mSlider{ float:left; width: 100%; height:550px; overflow: hidden;  background-image:url(../images/imgBg01.png); background-size: 550px cover; background-repeat:no-repeat;}
+.slides{  float:left;width:100%; height:550px; position:relative; }
+.s01 img.crop{position: absolute;    left: -100%;  right: -100%;    top: 0px;    bottom: 0;    margin: auto;     height:550px;    width: auto;}
+.s02 img.crop{ display:none; width:100%; height:550px; }
+.s03 img.crop{display:none; width:100%; height:550px;}
+
+.content01{ width:100%; height:1120px; overflow: hidden;  }
+.title{ width:100%;  height:130px;  padding-top:30px; padding-bottom:20px; border-right: 1px solid #484544; border-left: 1px solid #484544; box-sizing:border-box; }
+.group{ float:left; width:28%; height:120px; box-sizing:border-box;}
+.group h3{float:right; font-size: 23px; font-weight:bolder; line-height:30px; }
+.group h3.first{float:left; padding-left: 105px;}
+.group h3.last{padding: 5px 0;}
+
+
+.icons{float:left; width:44%; height:120px; box-sizing:border-box;text-align:center;}
+.icons img{  width:18.18%; height:50px;}
+.icons p{ font-size: 16px; font-weight:bold;}
+
+.ryul{ float:left; width:28%; height:120px; box-sizing:border-box;}
+.ryul h3{font-size: 23px; font-weight:bolder; padding-top:40px;}
+
+.twoS{width:100%; height:1000px;  border-right: 1px solid #484544; border-left: 1px solid #484544; box-sizing:border-box; background-image:url(../images/ryulBg01.png);
+background-repeat:no-repeat;     background-position: 50% 50%; }
+
+.group01{ float:left; width:28%; height:1000px; box-sizing:border-box;}
+.dayoff{ float:left; width:100%; height:215px; margin-top:382px;}
+.dayoff img{ float:right;width:64.28%; height:140px;}
+.dayoff p{ float:right; font-size:11px;color:#484544;} 
+.dayoff p .red{ font-size:11px; color:#9e4623; font-weight:bolder;}
+
+.carnival01{float:left;  width:100%; height:225px; margin-top:135px;}
+.carnival01 img{ float:right; width:64.28%; height:140px;}
+.carnival01 p{ float:right; font-size:11px;color:#484544;} 
+.carnival01 p .red{ font-size:11px; color:#9e4623; font-weight:bolder;}
+.carnival01 .video{ float:right; width:14px; height:10px;margin-top:5px; margin-right:3px;}
+.carnival02{display:none;}
+
+.icons01{ float:left; width:44%; height:1000px; box-sizing:border-box;}
+
+.ryul01{float:left; width:28%; height:1000px; box-sizing:border-box;}
+.wyou{ float:left; width:100%; height:202px; margin-top:10px;}
+.wyou img{ width:64.28%; height:140px; }
+.wyou p{ font-size:11px;color:#484544;} 
+.wyou p .red{ font-size:11px; color:#9e4623; font-weight:bolder;}
+.wyou .video{ float:left; width:13px; height:10px;margin-top:4px; margin-right:2px;}
+
+.carol{ float:left; width:100%; height:202px; margin-top:50px;}
+.carol img{ width:64.28%; height:140px; }
+.carol p{ font-size:11px;color:#484544;} 
+.carol p .red{ font-size:11px; color:#9e4623; font-weight:bolder;}
+.carol .video{ float:left; width:13px; height:10px;margin-top:4px; margin-right:2px;}
+
+.mono{ float:left; width:100%; height:220px; margin-top:35px;}
+.mono img{ width:64.28%; height:140px; }
+.mono p{ font-size:11px;color:#484544;} 
+.mono p .red{ font-size:11px; color:#9e4623; font-weight:bolder;}
+.mono .video{ float:left; width:13px; height:10px;margin-top:4px; margin-right:2px;}
+
+.conf{ float:left; width:100%; height:199px; margin-top:40px;}
+.conf img{width:64.28%; height:130px; }
+.conf p{ font-size:11px;color:#484544;} 
+.conf p .red{ font-size:11px; color:#9e4623; font-weight:bolder;}
+.conf .video{ float:left; width:13px; height:10px;margin-top:4px; margin-right:2px;}
+
+.content02{ width:100%;height:100px; overflow: hidden;  }
+.more{width:100%; height:100px;  border-right: 1px solid #484544; border-left: 1px solid #484544; box-sizing:border-box; text-align:center;}
+.more img{width:30px; height:30px; margin-top:24px;}
+.more p{ cursor:pointer;font-size: 12px; font-weight:bold; color:#484544; text-align:center; }
+.more p:hover { cursor:pointer;color: #9e4623; }
+
+.content03{ width:100%; height:1240px; overflow: hidden;  }
+.oneS{ width:100%; height:1240px;border-right: 1px solid #484544; border-left: 1px solid #484544; box-sizing:border-box; background-image:url(../images/ryulBg02.png);
+background-repeat:no-repeat;  background-position: 50% 50%; }
+
+
+.group02{ float:left; width:28%; height:1240px; box-sizing:border-box;}
+
+.gra{float:left;  width:100%; height:215px; margin-top:75px;}
+.gra img{ float:right;width:64.28%; height:140px;}
+.gra p{ float:right; font-size:11px;color:#484544;} 
+.gra p .red{ font-size:11px; color:#9e4623; font-weight:bolder;}
+
+.ex02{float:left;  width:100%; height:215px; margin-top:55px;}
+.ex02 img{ float:right;width:64.28%; height:140px;}
+.ex02 p{ float:right; font-size:11px;color:#484544;} 
+.ex02 p .red{ font-size:11px; color:#9e4623; font-weight:bolder;}
+
+.ex01{float:left;  width:100%; height:215px; margin-top:55px;}
+.ex01 img{ float:right;width:64.28%; height:140px;}
+.ex01 p{ float:right; font-size:11px;color:#484544;} 
+.ex01 p .red{ font-size:11px; color:#9e4623; font-weight:bolder;}
+
+
+
+
+
+.icon02{float:left; width:44%; height:1240px;  text-align:center;box-sizing:border-box;}
+.num p{ font-size: 16px; font-weight:bold;text-align:center; }
+
+.music{ width:100%; height:60px; text-align:center; margin-top:535px; margin-bottom:20px;}
+.music img{ width:15.90%; height:60px};
+
+.dream{ float:left; width:100%; height:260px; margin-top:20px; text-align:center;}
+.debut{ width:45.45%; height:260px; margin: auto; }
+.debut img{ width:78%; height:140px;}
+.debut p{ float:right; font-size:11px;color:#484544;} 
+.debut p .red{ font-size:11px; color:#9e4623; font-weight:bolder;}
+
+.sk{ float:left; width:100%; height:100px; text-align:center; box-sizing:border-box; margin-top:40px;}
+.sk img{ width:9.09%; height:60px; }
+.sk p{ cursor:pointer; font-size: 12px; font-weight:bold; text-align:center; color:#484544;}
+.sk p:hover { cursor:pointer;color: #9e4623; }
+
+.site{width:100%; height:165px; text-align:center; box-sizing:border-box;  }
+.site li{ width:61.36%; height:65px; box-sizing:border-box; margin:0 auto; padding-top:40px;}
+.site li a{font-size: 26px; font-weight:bold; text-align:center; color:#FFFFFF; }
+.site li a:hover{color: #e7b785;}
+.site img{ width:6.81%; height:30px; padding: 0 30px; padding-top:75px;}
+
+
+.ryul02{float:left; width:28%; height:1240px; box-sizing:border-box;}
+
+.chome{ float:left; width:100%; height:199px; margin-top:25px;}
+.chome img{width:64.28%; height:140px;  }
+.chome p{ font-size:11px;color:#484544;} 
+.chome p .red{ font-size:11px; color:#9e4623; font-weight:bolder;}
+.chome .video{ float:left; width:13px; height:11px;margin-top:4px; margin-right:2px;}
+
+.hope{ float:left; width:100%; height:199px; margin-top:40px;}
+.hope img{ width:64.28%; height:140px;  margin-top:40px;}
+.hope p{ font-size:11px;color:#484544;} 
+.hope p .red{ font-size:11px; color:#9e4623; font-weight:bolder;}
+.hope .video{ float:left; width:13px; height:11px;margin-top:4px; margin-right:2px;}
+
+.shadow{ float:left; width:100%; height:199px; margin-top:40px;}
+.shadow img{ width:64.28%; height:140px; }
+.shadow p{ font-size:11px;color:#484544;} 
+.shadow .video{ float:left; width:14px; height:11px;margin-top:4px; margin-right:2px;}
+.shadow p .red{ font-size:11px; color:#9e4623; font-weight:bolder;}
+
+
+
+.content04{display:none;}
+}
